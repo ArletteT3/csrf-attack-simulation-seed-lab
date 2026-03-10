@@ -42,6 +42,25 @@ The Elgg CSRF protection mechanism was enabled using:
 - __elgg_token (security token)
 
 After enabling these protections, both attacks failed because the attacker page could not generate valid tokens.
+## Screenshots
+
+### Friend List Before Attack
+![Before Attack](before-friends.png)
+
+### CSRF GET Attack Page
+![GET Attack](csrf-get-attack.png)
+
+### Friend Added After Attack
+![After Attack](after-friends.png)
+
+### Profile Modified via POST Attack
+![Profile Attack](profile-after.png)
+
+### CSRF Token Protection Enabled
+![Token Protection](csrf-token-protection.png)
+
+### Failed Attack After Protection
+![Failed Attack](failed-attack.png)
 
 ## Key Cybersecurity Concepts
 - Cross-Site Request Forgery (CSRF)
