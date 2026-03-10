@@ -62,6 +62,16 @@ After enabling these protections, both attacks failed because the attacker page 
 ### Failed Attack After Protection
 ![Failed Attack](failed-attack.png)
 
+## Attack Implementation
+
+The following files were created to perform the CSRF attacks:
+
+attack-pages/Torres-addfriend.html  
+Simulates a GET-based CSRF attack that adds a malicious friend.
+
+attack-pages/Torres-hero.html  
+Uses an auto-submitting form to perform a POST-based CSRF attack that modifies the victim profile.
+
 ## Key Cybersecurity Concepts
 - Cross-Site Request Forgery (CSRF)
 - Web application vulnerabilities
