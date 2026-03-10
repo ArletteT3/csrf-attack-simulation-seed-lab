@@ -19,6 +19,14 @@ This project demonstrates Cross-Site Request Forgery (CSRF) attacks against the 
 - Demonstrate successful attacks when protections are disabled
 - Demonstrate how CSRF tokens prevent these attacks
 
+## How to Reproduce the Lab
+
+1. Launch the SEED Ubuntu virtual machine
+2. Start Apache server
+3. Access the Elgg site as the victim user
+4. Visit the attacker page hosted on the attacker server
+5. Observe the forged request executing automatically
+
 ## Attack 1 – CSRF GET Attack
 A malicious HTML page was created that sends a forged GET request to the Elgg application:
 
